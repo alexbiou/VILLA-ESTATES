@@ -1,0 +1,42 @@
+
+> villa-estates@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.29
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.7:3001
+
+ ✓ Starting...
+ ✓ Ready in 7.6s
+[?25h
+mpiling / ...
+ ✓ Compiled / in 3.7s (690 modules)
+ GET / 200 in 4358ms
+ HEAD / 200 in 96ms
+ GET / 200 in 150ms
+ GET / 200 in 117ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 739ms (695 modules)
+ GET /about 200 in 907ms
+ GET /about 200 in 43ms
+ ○ Compiling /villas ...
+ ✓ Compiled /villas in 646ms (693 modules)
+ GET /villas 200 in 745ms
+ ○ Compiling /faq ...
+ ✓ Compiled /faq in 552ms (701 modules)
+ GET /faq 200 in 629ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 580ms (737 modules)
+ GET /contact 200 in 671ms
+ GET /about 200 in 45ms
+ GET /villas 200 in 32ms
+ GET /villas 200 in 237ms
+ GET /villas 200 in 112ms
+ GET /villas 200 in 115ms
+ GET /villas 200 in 125ms
+ GET /about 200 in 34ms
+ GET /about 200 in 106ms
+ GET /contact 200 in 31ms
+ GET /faq 200 in 39ms
+ GET /villas 200 in 30ms
+[?25h

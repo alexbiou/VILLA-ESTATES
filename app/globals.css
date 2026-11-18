@@ -1,0 +1,21 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-ivory text-charcoal font-sans antialiased; }
+  h1,h2,h3 { @apply font-serif font-medium tracking-tight; }
+  :focus-visible { outline: 2px solid #7D806C; outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+}
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-7xl px-5 md:px-10; }
+  .btn { @apply inline-flex items-center justify-center bg-charcoal px-7 py-3.5 text-sm tracking-wide text-ivory transition-colors hover:bg-olive-deep disabled:opacity-50; }
+  .btn-ghost { @apply inline-flex items-center justify-center border border-charcoal/30 px-7 py-3.5 text-sm transition-colors hover:border-charcoal; }
+  .field { @apply w-full border-0 border-b border-charcoal/30 bg-transparent px-0 py-2.5 text-[15px] placeholder:text-charcoal/40 focus:border-charcoal focus:outline-none focus:ring-0; }
+  .err { @apply mt-1 text-xs text-[#9a3b2e]; }
+}
+@layer components {
+  .grid12 { @apply grid grid-cols-4 gap-x-5 md:grid-cols-12 md:gap-x-8; }
+  .panel { @apply bg-ivory shadow-[0_24px_50px_-24px_rgba(36,39,33,.4)] ring-1 ring-charcoal/10; }
+  .section { @apply mt-24 md:mt-36; }
+  .label { @apply text-xs font-medium text-olive-deep; }
+}
