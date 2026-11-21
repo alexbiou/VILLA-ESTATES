@@ -1,23 +1,24 @@
+<div align="center">
+
 # VILLA ESTATES
 
 ### Premium Villa Rental Platform
 
 A modern villa rental platform concept focused on elegant design, curated properties and seamless booking experiences.
 
-<p align="center">
-  <img src="public/images/hero.jpg" alt="VILLA ESTATES Preview" width="100%">
-</p>
+**Discover exceptional places. Experience meaningful stays.**
 
-<p align="center">
-  <strong>Discover exceptional places. Experience meaningful stays.</strong>
-</p>
+<img src="https://img.shields.io/badge/Next.js-App%20Router-black?logo=next.js" alt="Next.js" />
+<img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Tailwind%20CSS-Styling-06B6D4?logo=tailwindcss" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Supabase-Backend-3FCF8E?logo=supabase" alt="Supabase" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-App%20Router-black?logo=next.js">
-  <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-Styling-06B6D4?logo=tailwindcss">
-  <img src="https://img.shields.io/badge/Supabase-Backend-3FCF8E?logo=supabase">
-</p>
+<br />
+<br />
+
+<img src="docs/screenshots/preview.png" alt="VILLA ESTATES home page: hero section with the headline 'Houses worth arriving at' and the villa search bar" width="100%" />
+
+</div>
 
 ---
 
